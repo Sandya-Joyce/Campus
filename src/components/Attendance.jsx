@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaCalendarAlt, FaCheckCircle, FaTimesCircle, FaUserCheck } from 'react-icons/fa';
+import { FaCheckCircle, FaTimesCircle, FaUserCheck } from 'react-icons/fa';
 
 export default function Attendance({ role, isPresent, markAttendance }) {
   const attendanceItems = [
