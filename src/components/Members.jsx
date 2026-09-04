@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { FaUsers, FaUserTie, FaUserCog, FaPlus, FaTrash, FaUpload, FaDownload, FaChevronDown, FaChevronRight, FaUserPlus, FaChartLine, FaBible, FaHeart, FaCross, FaPrayingHands } from 'react-icons/fa';
+import { FaUsers, FaPlus, FaTrash, FaUpload, FaDownload, FaChevronDown, FaChevronRight, FaUserPlus, FaBible, FaHeart, FaCross, FaPrayingHands } from 'react-icons/fa';
 
 export default function Members({ teams, role, onUpdateTeams }) {
   const [expandedTeams, setExpandedTeams] = useState({});

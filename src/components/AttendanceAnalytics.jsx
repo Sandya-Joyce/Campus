@@ -44,7 +44,6 @@ export default function AttendanceAnalytics({ teams, role }) {
   const cellStats = getCellStats();
 
   const SimpleBarChart = ({ data, label, maxWidth = 300 }) => {
-    const maxAttendance = Math.max(...data.map((d) => d.attendance), 100);
     return (
       <div style={{ marginBottom: 20 }}>
         {data.map((item) => (

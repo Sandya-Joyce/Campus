@@ -1,5 +1,5 @@
 import React, { useEffect, useMemo, useState } from 'react';
-import { FaBookReader, FaPlus, FaTrash, FaEdit, FaCalendarAlt } from 'react-icons/fa';
+import { FaBookReader, FaTrash, FaEdit } from 'react-icons/fa';
 
 const emptyForm = {
   title: '',
