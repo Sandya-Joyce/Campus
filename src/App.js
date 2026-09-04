@@ -30,7 +30,7 @@ function App() {
       return {};
     }
   });
-  const [classes, setClasses] = useState(() => {
+  const [classes] = useState(() => {
     try {
       const raw = localStorage.getItem('campus_classes');
       return raw ? JSON.parse(raw) : initialClasses;
